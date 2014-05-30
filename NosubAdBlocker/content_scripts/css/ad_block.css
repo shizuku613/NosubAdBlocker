@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* commons */
+#lianyue_cat_footer_ad,
+#lianyue_top9_header_ad,
+#lianyue_single_header_ad,
+#lianyue_ad_comments,
+#lianyue_main_header_ad {
+	display: none !important;
+}
+
+/* sidebar */
+.sidebar > .widget_text > .textwidget > div {
+	height: 0 !important;
+}
+
+/* single */
+body.single .ad_player {
+	display: none !important;
+}
+
+body.single .mood_comment {
+	display: none !important;
+}
