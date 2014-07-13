@@ -6,13 +6,13 @@
     "128": "assets/icons/icon128.png",
     "48": "assets/icons/icon48.png"
   },
-  "version": "1.0.1.0",
+  "version": "1.0.2.0",
   "manifest_version": 2,
   "background": {
   },
   "content_scripts": [
     {
-    "matches": ["http://www.nosub.tv/*"],
+    "matches": ["*://www.nosub.tv/*"],
     "css"    : [
       "content_scripts/css/ad_block.css"
     ],
@@ -23,7 +23,7 @@
     }
   ],
   "permissions": [
-    "http://www.nosub.tv/*"
+    "*://www.nosub.tv/*"
   ],
   "web_accessible_resources": [
     "vendor/js/*.map"
