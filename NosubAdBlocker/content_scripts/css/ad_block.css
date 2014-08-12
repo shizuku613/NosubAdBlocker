@@ -22,3 +22,8 @@ body.single .ad_player {
 body.single .mood_comment {
 	display: none !important;
 }
+
+/* floating */
+#g_floating_area1, #g_floating_area2 {
+  display: none !important;
+}
