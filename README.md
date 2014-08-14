@@ -5,7 +5,7 @@ This extension can block ads in a web site "Nosub", and hide it on Google Chrome
 
 ## Install
 You can install the extension from Chrome Web Store.<br />
-https://chrome.google.com/webstore/detail/nosub-ad-blocker/fedfpjemoohlkpjkmnggeidmpeghoofp?hl=ja
+https://chrome.google.com/webstore/detail/nosub-ad-blocker/fedfpjemoohlkpjkmnggeidmpeghoofp
 
 ## Development environment
 * CSS
