@@ -1,26 +1,36 @@
 {
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
-  "author": "KONO Shizuku",
+  "author": "Shizuku Kono",
   "icons": {
     "128": "assets/icons/icon128.png",
     "48": "assets/icons/icon48.png"
   },
   "default_locale": "en",
-  "version": "1.1.0.0",
+  "version": "1.2.0.0",
   "manifest_version": 2,
   "background": {
   },
   "content_scripts": [
     {
-    "matches": ["*://www.nosub.tv/*"],
-    "css"    : [
-      "content_scripts/css/ad_block.css"
-    ],
-    "js"     : [
-    ],
-    "run_at" : "document_idle",
-    "all_frames": false
+      "matches": ["*://www.nosub.tv/*"],
+      "css"    : [
+        "content_scripts/css/ad_block.css"
+      ],
+      "js"     : [
+      ],
+      "run_at" : "document_idle",
+      "all_frames": false
+    },
+    {
+      "matches": ["*://www.nosub.tv/channel/*"],
+      "css"    : [
+      ],
+      "js"     : [
+        "content_scripts/js/ad_block.js"
+      ],
+      "run_at" : "document_start",
+      "all_frames": false
     }
   ],
   "permissions": [

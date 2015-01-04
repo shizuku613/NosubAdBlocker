@@ -25,5 +25,10 @@ body.single .mood_comment {
 
 /* floating */
 #g_floating_area1, #g_floating_area2 {
-  display: none !important;
+	display: none !important;
+}
+
+/* delay ad */
+.weekAd, .catlistAd  {
+	display: none !important;
 }
