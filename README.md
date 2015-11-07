@@ -12,4 +12,4 @@ https://chrome.google.com/webstore/detail/nosub-ad-blocker/fedfpjemoohlkpjkmngge
 
 ## License
 * MIT License
-* Copyright (c) 2014 KONO Shizuku
+* Copyright (c) 2014-2015 Shizuku Kono

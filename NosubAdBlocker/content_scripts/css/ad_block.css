@@ -9,6 +9,11 @@
 	display: none !important;
 }
 
+#imobile_adspotdiv3,
+#gs_player_ovad_close_icon {
+  display: none !important;
+}
+
 /* sidebar */
 .sidebar > .widget_text > .textwidget > div {
 	height: 0 !important;
@@ -32,3 +37,4 @@ body.single .mood_comment {
 .weekAd, .catlistAd  {
 	display: none !important;
 }
+
